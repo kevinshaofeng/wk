@@ -1,0 +1,5 @@
+---
+
+- include: deploy-api.yml
+  tags:
+    - deploy-api

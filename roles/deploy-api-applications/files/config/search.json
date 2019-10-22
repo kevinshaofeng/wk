@@ -1,0 +1,55 @@
+
+{
+	
+    "searchArrayOrLike":{
+		"filename": "jcr:content/cq:name"
+	},
+	"searchArrayAnd":{
+		"tags": "jcr:content/metadata/cq:tagsDesc"
+	},
+	"searchArrayOr":{
+		"mimeType": "jcr:content/metadata/dam:MIMEtype",
+		"filetype": "jcr:content/metadata/dc:format",
+		"filepath": "jcr:content/cq:parentPath",
+		"ID": "jcr:path",
+		"Fileformat": "jcr:content/metadata/dam:Fileformat"
+	},
+	"searchStr":{
+		"WKDADepartment":"jcr:content/metadata/wkcd_dam:WKDADepartment"
+
+	},
+	"searchStrLike":{
+		
+		"publisher-en":"jcr:content/metadata.en/dc:publisher",
+		"publisher-cn":"jcr:content/metadata.zh_cn/dc:publisher",
+		"publisher-hk":"jcr:content/metadata.zh_hk/dc:publisher",
+		
+		"title-en": "jcr:content/metadata.en/dc:title",
+		"title-cn": "jcr:content/metadata.zh_cn/dc:title",
+		"title-hk": "jcr:content/metadata.zh_hk/dc:title",
+
+		
+		"description-en": "jcr:content/metadata.en/dc:description",
+		"description-cn": "jcr:content/metadata.zh_cn/dc:description",
+		"description-hk": "jcr:content/metadata.zh_hk/dc:description",
+
+		"creator-en": "jcr:content/metadata.en/dc:creator",
+		"creator-cn": "jcr:content/metadata.zh_cn/dc:creator",
+		"creator-hk": "jcr:content/metadata.zh_hk/dc:creator"
+
+	},
+	"searchFromToDate":{
+		"lastModifiedDate": "jcr:content/metadata/jcr:lastModified",
+		"expiryDate": "jcr:content/metadata/wkcd_dam:InternalExpiryDate"
+	},
+	"searchFromToMB": {
+		"fileSize": "jcr:content/metadata/dam:size"
+	},
+	"searchFromToMinutes":{
+		"duration": "jcr:content/metadata/duration"
+	},
+	"searchFromToPixel":{
+		"width": "jcr:content/metadata/tiff:ImageWidth",
+		"height": "jcr:content/metadata/tiff:ImageLength"
+	}
+}

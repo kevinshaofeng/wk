@@ -1,0 +1,24 @@
+# file: authoronly
+
+###########################
+# HOSTS
+###########################
+
+[applications]
+#DAM-L-DV002.wkcda.local ansible_host=10.32.171.13
+#DAM-L-DV004.wkcda.local ansible_host=10.33.94.68
+DAM-L-DV005.wkcda.local ansible_host=10.33.94.30
+
+[author]
+#author01.dev.dam.wkcda.local ansible_host=10.32.171.13
+#author01.dev.dam.wkcda.local ansible_host=10.33.94.68
+author01.dev.dam.wkcda.local ansible_host=10.33.94.30
+
+
+###########################
+# SERVICE TO SERVER MAP
+###########################
+
+[develop:children]
+applications
+author

@@ -1,0 +1,23 @@
+{
+  "publisher":"jcr:content/metadata/dc:publisher",
+  "lastModifiedByUser":"jcr:content/metadata/jcr:lastModifiedBy",
+  "title": "jcr:content/metadata/dc:title",
+  "filename": "jcr:content/cq:name",
+  "description": "jcr:content/metadata/dc:description",
+  "creator": "jcr:content/metadata/dc:creator",
+  "lastModifiedDate": "jcr:content/metadata/jcr:lastModified",
+  "fileSize": "jcr:content/metadata/dam:size",
+  "width": "jcr:content/metadata/tiff:ImageWidth",
+  "height": "jcr:content/metadata/tiff:ImageLength",
+  "downloadURL": "jcr:content/metadata/wkcd_pa:LinkedAssets",
+  "thumbnailLink": "jcr:path",
+  "thumbnailBase64": "jcr:path",
+  "sha1": "jcr:content/metadata/dam:sha1",
+  "expiryDate": "jcr:content/metadata/wkcd_dam:InternalExpiryDate",
+  "WKDADepartment":"jcr:content/metadata/wkcd_dam:WKDADepartment",
+  "filetype": "jcr:content/metadata/dc:format",
+  "duration": "jcr:content/metadata/duration",
+  "ID":"jcr:path",
+  "filepath": "jcr:content/cq:parentPath",
+  "Fileformat": "jcr:content/metadata/dam:Fileformat"
+}

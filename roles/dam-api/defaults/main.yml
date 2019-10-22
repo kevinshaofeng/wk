@@ -1,0 +1,24 @@
+---
+
+docker_image: wkcd-aem-api
+docker_container_name: wkcd-aem-api
+
+docker_image_tag: 3.3.9                                                # Docker image tag for docker build and docker run
+
+##  Docker repository usage
+docker_images_pull: no
+docker_images_push: no                                                 # using docker in isolation by default. set to yes to push to private registry.
+docker_images_force: yes                                               # rebuild all docker images by default.
+
+docker_keep_volumes: true
+docker_volume_driver: local
+docker_volumes:
+  - "/var/lib/rancher/convoy/devicemapper/mounts/api01-develop-config:/api/config"
+  - "/var/lib/rancher/convoy/devicemapper/mounts/api01-develop-logs:/api/logs"
+  # - "/var/lib/rancher/convoy/devicemapper/mounts/{{ docker_container_name }}-config:/api/config"
+  # - "/var/lib/rancher/convoy/devicemapper/mounts/{{ docker_container_name }}-logs:/api/logs"
+
+docker_published_ports:
+    - "8085:8080/tcp"
+
+docker_repository: 0.0.0.0:5000                                        # Docker registry to push and pull images from

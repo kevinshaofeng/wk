@@ -1,0 +1,8 @@
+---
+
+- name: dam-api
+  hosts: api
+
+
+  roles:
+    - role: dam-api

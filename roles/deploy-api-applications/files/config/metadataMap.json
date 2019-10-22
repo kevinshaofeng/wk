@@ -1,0 +1,34 @@
+
+{
+	"originalPath":"wkcd_pa:LinkedAssets",
+	"metadataArray":{},
+	"requestArray":{
+		"title":"dc:title",
+		"description":"dc:description",
+	    "creator":"dc:creator",
+		"publisher":"dc:publisher"
+	},
+	"requestPixel":{
+	   "height": "tiff:ImageLength",
+	   "width": "tiff:ImageWidth"
+	},
+	"requestMB": {
+		"fileSize": "dam:size"
+	},
+	"requestMinutes":{
+		"duration": "duration"
+	},
+	"requestInt":{},
+	"requestDate":{
+		"expiryDate": "wkcd_dam:InternalExpiryDate",
+		"lastModifiedDate": "jcr:lastModified"
+	},
+	"requestStr":{
+		"WKDADepartment":"wkcd_dam:WKDADepartment",
+		"mimeType": "dam:MIMEtype",
+		"sha1":"dam:sha1",
+		"lastModifiedByUser":"jcr:lastModifiedBy",
+	    "filetype":"dc:format",
+		"Fileformat": "dam:Fileformat"
+	}
+}

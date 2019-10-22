@@ -1,0 +1,15 @@
+---
+
+- name: wkcda dam common playbook
+  hosts: applications
+  strategy: free
+
+
+  pre_tasks: []
+
+  roles:
+  - role: common
+
+  post_tasks: []
+
+  handlers: []
