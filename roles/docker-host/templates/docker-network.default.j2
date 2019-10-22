@@ -1,4 +1,0 @@
-# /etc/sysconfig/docker-network
-# Managed by Ansible.
-
-DOCKER_NETWORK_OPTIONS="{% for item in consul_dns %}--dns {{ item }} {% endfor %}"

@@ -1,3 +1,0 @@
----
-
-docker_container_name: "api01-{{ consul_environment }}"

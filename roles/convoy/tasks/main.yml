@@ -1,5 +1,0 @@
----
-
-- include: convoy-install.yml
-- include: convoy-start.yml
-- include: extend-convoy-pool.yml

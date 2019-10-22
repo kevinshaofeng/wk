@@ -1,6 +1,0 @@
----
-
-iptable:
-  rules: []
-
-snmp_src: "10.72.28.40/32"

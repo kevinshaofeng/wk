@@ -1,9 +1,0 @@
----
-
-- include: setup-ca.yml
-  tags:
-    - setup-ca
-
-- include: setup-basicauth.yml
-  tags:
-    - setup-ca

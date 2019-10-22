@@ -1,5 +1,0 @@
----
-
-- include: docker-image-build.yml
-
-- include: docker-container-build.yml

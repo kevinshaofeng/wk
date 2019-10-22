@@ -1,8 +1,0 @@
-FROM java:8
-
-ADD wkcd-aem-api.jar /api/wkcd-aem-api.jar
-
-EXPOSE 8080
-
-ENTRYPOINT ["java","-jar","/api/wkcd-aem-api.jar"]
-

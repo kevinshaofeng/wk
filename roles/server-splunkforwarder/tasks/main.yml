@@ -1,4 +1,0 @@
----
-
-- name: configuring splunk forwarder
-  include: configure-splunkforwarder.yml

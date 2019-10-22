@@ -1,7 +1,0 @@
----
-- hosts: sshhost
-#  become: yes
-#  become_method: sudo
-  roles:
-    - common
-    - security-rotate-keys

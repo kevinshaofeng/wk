@@ -1,5 +1,0 @@
----
-
-- include: initalize-ansibleuser.yml
-  tags:
-    - initalize-ansibleuser

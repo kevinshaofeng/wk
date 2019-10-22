@@ -1,5 +1,0 @@
----
-
-- include: configure-aem-replication.yml
-  when: replication_agents or dispatcher_flush_agents
-  static: no

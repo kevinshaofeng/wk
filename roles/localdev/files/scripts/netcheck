@@ -1,2 +1,0 @@
-#check lan connectivity and restart if none
-*/10 * * * * root /usr/local/bin/checklan

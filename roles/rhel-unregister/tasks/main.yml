@@ -1,6 +1,0 @@
----
-
-- include: redhat-subscription.yml
-  tags:
-    - prep-os
-

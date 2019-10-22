@@ -1,7 +1,0 @@
----
-- name: deploy application to api
-  hosts: api
-  roles:
-  - {
-      role: deploy-api-applications
-    }

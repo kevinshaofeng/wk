@@ -1,8 +1,0 @@
----
-
-docker_container_name: "dispatcher-publish05-{{ consul_environment }}"
-consul_service_tags: "{{ consul_environment }},04"
-
-volume_info: []
-
-render_hostname: "04.publisher.service.dc1.consul"
